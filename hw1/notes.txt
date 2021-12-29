@@ -1,0 +1,15 @@
+Errors occur when install mujoco:
+1.error: command 'gcc' failed with exit status 1
+----------------------------------------
+ERROR: Failed building wheel for mujoco-py
+
+need to install gcc and its multiple dependency
+
+2.error: [Errno 2] No such file or directory: 'patchelf': 'patchelf'
+----------------------------------------
+ERROR: Failed building wheel for mujoco-py
+
+need to install patchelf
+sudo apt-get install patchelf
+
+3.What is the meaning of pip install -e???
